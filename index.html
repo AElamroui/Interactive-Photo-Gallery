@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de photos interactive</title>
+    <script src="Photo_Gallery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1>Galerie de photos</h1>
+    <div id="image" aria-live="polite">Hover over an image below to display here.</div>
+    <div id="gallery">
+        <img src="https://images.unsplash.com/photo-1783936093098-2daf9e8ef72e?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D"
+            alt="A black and white border collie standing on its hind legs on a grassy hillside, holding a bundle of wildflowers in its mouth."
+            onmouseover="upDate(this)" onmouseout="undo()"
+            onfocus="upDate(this)" onblur="undo()">
+
+        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&amp;w=662&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D"
+            alt="A golden retriever puppy sitting on a stone patio, holding a yellow flower stem in its mouth, with a wooden lattice fence behind it."
+            onmouseover="upDate(this)" onmouseout="undo()"
+            onfocus="upDate(this)" onblur="undo()">
+
+        <img src="https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?q=80&amp;w=686&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D"
+            alt="A black and white border collie with its mouth open and ears up, looking happy against a dark blue background."
+            onmouseover="upDate(this)" onmouseout="undo()"
+            onfocus="upDate(this)" onblur="undo()">
+
+        <img src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&amp;w=686&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D"
+            alt="A white dog with black patches and black ears looking directly at the camera against a plain light blue background."
+            onmouseover="upDate(this)" onmouseout="undo()"
+            onfocus="upDate(this)" onblur="undo()">
+
+        <img src="https://plus.unsplash.com/premium_photo-1666777247416-ee7a95235559?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D"
+            alt="A golden retriever with its tongue out, sitting on sandy ground with dry grass and a cloudy sky behind it, wearing a red collar."
+            onmouseover="upDate(this)" onmouseout="undo()"
+            onfocus="upDate(this)" onblur="undo()">
+
+        <!-- Replace this placeholder with your sixth photo and its alt text -->
+        <img src="https://placehold.co/200x250?text=Photo+6"
+            alt="Placeholder for the sixth photo: replace with a description of your photo"
+            onmouseover="upDate(this)" onmouseout="undo()"
+            onfocus="upDate(this)" onblur="undo()">
+    </div>
+
+</body>
+
+</html>
